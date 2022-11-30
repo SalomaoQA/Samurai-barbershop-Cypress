@@ -14,6 +14,8 @@ class LoginPage {
     submit() {
         cy.contains('button[type=submit]', 'Entrar').click()
     }
+
+    
 }
 
 
